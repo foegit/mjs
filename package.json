@@ -1,0 +1,35 @@
+{
+  "name": "mjs",
+  "version": "1.0.0",
+  "description": "MJS is a simple labratory, where i test and write some js features",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foegit/mjs.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Serhii Hlavatskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foegit/mjs/issues"
+  },
+  "homepage": "https://github.com/foegit/mjs#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
